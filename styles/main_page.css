@@ -1,0 +1,73 @@
+body {
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: body_onload;
+    animation-duration: 5s;
+    background-color: #cdb4db;
+}
+main {
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.jm_pontoart {
+    display: flex;
+    justify-content: space-around;
+    animation-name: imagens_onload;
+    animation-duration: 5s;
+    transform: scale(0.75);
+}
+.carrosel_portifolio {
+    height: 420px;
+    background-color: #fff;
+    animation-name: hide-show;
+    animation-duration: 5s;
+}
+.links {
+    flex-direction: column;
+    gap: .5rem;
+    animation-name: hide-show;
+    animation-duration: 5s;
+}
+.links button {
+    height: 1.4rem;
+    border: none;
+    border-radius: .7rem;
+}
+@keyframes body_onload {
+    0% {
+        background-color: #eaf2d7;
+    }
+    90% {
+        background-color: #eaf2d7;
+
+    }
+    100% {
+        background-color: #cdb4db;
+    }
+}
+@keyframes imagens_onload {
+    0% {
+        transform: scale(1);
+    }
+    80% {
+        transform: scale(1);
+
+    }
+    100% {
+        transform: scale(0.75);
+    }
+}
+@keyframes hide-show {
+    from  {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
