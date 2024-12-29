@@ -8,6 +8,13 @@ body {
     animation-duration: 5s;
     background-color: #cdb4db;
 }
+.center {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 main {
     width: 100%;
     max-width: 360px;
@@ -25,19 +32,33 @@ main {
 .carrosel_portifolio {
     height: 420px;
     background-color: #fff;
-    animation-name: hide-show;
+    animation-name: hide-show_carrosel;
     animation-duration: 5s;
 }
 .links {
+    display: flex;
     flex-direction: column;
     gap: .5rem;
-    animation-name: hide-show;
+    animation-name: hide-show_btn;
     animation-duration: 5s;
 }
 .links button {
     height: 1.4rem;
     border: none;
     border-radius: .7rem;
+}
+#carrosel1 {
+    height: 100%;
+}
+.carousel-inner {
+    height: 100%;
+}
+.carousel-item {
+    height: 100%;
+}
+.img_carrosel {
+    max-width: 360px;
+    height: auto;
 }
 @keyframes body_onload {
     0% {
@@ -57,17 +78,41 @@ main {
     }
     80% {
         transform: scale(1);
-
     }
     100% {
         transform: scale(0.75);
     }
 }
-@keyframes hide-show {
-    from  {
+@keyframes hide-show_carrosel {
+    0%  {
         transform: scale(0);
+        height: 0;
     }
-    to {
+    60% {
+        transform: scale(0);
+        height: 0;
+    }
+    97% {
+        transform: scale(0);
+        height: 420px;
+    }
+    100% {
         transform: scale(1);
     }
+    
+}
+@keyframes hide-show_btn {
+    0%  {
+        transform: scale(0);
+        opacity: 0;
+    }
+    97% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);    
+    }
+    
 }
