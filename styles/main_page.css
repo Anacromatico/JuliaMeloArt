@@ -17,35 +17,34 @@ body {
 }
 main {
     width: 100%;
-    max-width: 360px;
+    max-width: 425px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 .jm_pontoart {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     animation-name: imagens_onload;
     animation-duration: 5s;
     transform: scale(0.75);
 }
 .carrosel_portifolio {
     height: 420px;
-    background-color: #fff;
     animation-name: hide-show_carrosel;
     animation-duration: 5s;
 }
 .links {
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: .8rem;
     animation-name: hide-show_btn;
     animation-duration: 5s;
 }
 .links button {
-    height: 1.4rem;
+    height: 2rem;
     border: none;
-    border-radius: .7rem;
+    border-radius: 1rem;
 }
 #carrosel1 {
     height: 100%;
@@ -57,8 +56,27 @@ main {
     height: 100%;
 }
 .img_carrosel {
-    max-width: 360px;
+    max-width: 420px;
     height: auto;
+}
+main button img {
+    height: 80%;
+    width: auto;
+}
+.btn_portifolio {
+    font-family: Caveat;
+}
+.btn_whatsapp {
+    background-color: #00D757;
+    color: #fff
+}
+.btn_instagram {
+    color: #fff;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 @keyframes body_onload {
     0% {
