@@ -17,7 +17,6 @@ body {
 }
 
 .carrosel_portifolio {
-    height: 420px;
     animation-name: hide-show_carrosel;
     animation-duration: 5s;
 }
