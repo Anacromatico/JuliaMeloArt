@@ -6,6 +6,12 @@ body {
 .pagina_p {
     width: 97vw;
 }
+.pagina_p section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
 
 .jm_pontoart {
     margin-top: 3rem;
@@ -26,12 +32,19 @@ body {
     animation-duration: 5s;
 }
 
+nav {
+    margin-bottom: 3rem;
+}
 #carrosel1 {
     height: 100%;
+    animation-name: hide-show_carrosel;
+    animation-duration: 5s;
 }
 
 .carousel-inner {
     height: 100%;
+    animation-name: hide-show_carrosel;
+    animation-duration: 5s;
 }
 
 .carousel-item {
@@ -40,7 +53,7 @@ body {
 
 .img_carrosel {
     width: 100%;
-    object-fit: contain;
+    height: auto;
 }
 
 button img {
@@ -64,7 +77,6 @@ button img {
     background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
-    margin-bottom: 3rem;
 }
 
 @keyframes body_onload {
@@ -87,51 +99,47 @@ button img {
         transform: scale(1);
     }
 
-    80% {
+    60% {
         transform: scale(1);
     }
 
-    100% {
+    90% {
         transform: scale(0.75);
     }
 }
 
 @keyframes hide-show_carrosel {
     0% {
-        transform: scale(0);
-        height: 0;
+        max-height: 0;
+        opacity: 0;
     }
 
-    60% {
-        transform: scale(0);
-        height: 0;
-    }
-
-    97% {
-        transform: scale(0);
-        height: 420px;
+    90% {
+        opacity: 0;
+        max-height: 0;
     }
 
     100% {
-        transform: scale(1);
+        opacity: 1;
+        max-height: 600px;
     }
 
 }
 
 @keyframes hide-show_btn {
     0% {
-        transform: scale(0);
         opacity: 0;
+        max-height: 0;
     }
 
-    97% {
-        transform: scale(0);
+    90% {
         opacity: 0;
+        max-height: 0;
     }
 
     100% {
+        max-height: 150px;
         opacity: 1;
-        transform: scale(1);
     }
 
 }

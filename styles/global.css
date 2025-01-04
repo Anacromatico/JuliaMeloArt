@@ -26,8 +26,8 @@ body {
 }
 
 .pagina_p {
-    width: 100%;
-    max-width: 425px;
+    width: 95vw;
+    max-width: 550px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
