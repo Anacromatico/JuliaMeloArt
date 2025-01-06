@@ -2,17 +2,20 @@ body {
     background-image: url(../layout_images/svg/JM_escrito_mosaico.svg);
     background-color: #eaf2d7;
 }
-body > :first-child {
+
+body> :first-child {
     margin-top: 8rem;
 }
-    
+
 .pagina_p {
     gap: 4rem;
     margin-bottom: 10rem;
 }
+
 .pagina_p .txt {
     background-color: #eaf2d7;
 }
+
 .juliawhatsapp {
     align-self: center;
     max-width: 340px;
@@ -22,14 +25,17 @@ body > :first-child {
     background-color: #00D757;
     border-radius: 50%;
 }
+
 .juliawhatsapp img {
     width: 92%;
     height: 92%;
     border-radius: 50%;
 }
+
 .juliawhatsapp :hover {
     cursor: pointer;
 }
+
 button {
     background-color: #cdb4db;
     color: #fff;

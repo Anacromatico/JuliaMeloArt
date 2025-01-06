@@ -1,0 +1,58 @@
+body {
+    animation: body_onload_portifolio 5s none;
+    background-color: #eaf2d7;
+}
+section {
+    width: 100%;
+}
+header {
+    width: 99%;
+}
+header h2 {
+    margin: 3rem 0;
+}
+nav {
+    width: 99%;
+    border-radius: 0 0 .5rem .5rem;
+    top: 0;
+    position: sticky;
+}
+.navbar_color {
+    background-color: #6B2D5C;
+}
+.navbar_txt {
+    color: #F9F1F7;
+}
+.navbar-brand {
+    display: flex;
+    align-content: center;
+    gap: 1rem;
+}
+.navbar-brand img {
+    width: 4rem;
+    height: auto;
+}
+.navbar-brand h1 {
+    display: inline;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    line-height: inherit ;
+    font-size: 2.4rem;
+    flex-grow: 1;
+    font-family: Caveat;
+}
+@keyframes body_onload_portifolio {
+    0% {
+        background-color: #cdb4db;
+    }
+
+    90% {
+        background-color: #cdb4db;
+
+    }
+
+    100% {
+        background-color: #eaf2d7;
+    }
+}

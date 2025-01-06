@@ -1,16 +1,6 @@
 body {
-
     animation-name: body_onload;
     animation-duration: 5s;
-}
-.pagina_p {
-    width: 97vw;
-}
-.pagina_p section {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
 }
 
 .jm_pontoart {
@@ -35,6 +25,7 @@ body {
 nav {
     margin-bottom: 3rem;
 }
+
 #carrosel1 {
     height: 100%;
     animation-name: hide-show_carrosel;
