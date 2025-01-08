@@ -14,14 +14,15 @@ header h2 {
 nav {
     width: 99%;
     border-radius: 0 0 .5rem .5rem;
+    position: fixed;
     top: 0;
-    position: sticky;
 }
 .navbar_color {
     background-color: #6B2D5C;
 }
 .navbar_txt {
     color: #F9F1F7;
+    font-weight: 500;
 }
 .navbar-brand {
     display: flex;
@@ -41,6 +42,9 @@ nav {
     font-size: 2.4rem;
     flex-grow: 1;
     font-family: Caveat;
+}
+.pagina_sub {
+    padding-top: 6rem;
 }
 @keyframes body_onload_portifolio {
     0% {
