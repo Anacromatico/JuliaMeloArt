@@ -46,14 +46,13 @@ body {
     gap: 2rem;
 }
 
-
 .container_btn {
     display: flex;
     flex-direction: column;
     gap: .8rem;
 }
 
-.container_btn button {
+.container_btn button, .btn {
     height: 2rem;
     border: none;
     border-radius: 1rem;
@@ -69,4 +68,17 @@ body {
 }
 #container_carroseis {
     margin-top: 5rem;
+}
+
+.img_carrosel {
+    width: 100%;
+    height: auto;
+}
+
+button img {
+    height: 80%;
+    width: auto;
+}
+.btn_portifolio, .caveat {
+    font-family: Caveat;
 }

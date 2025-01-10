@@ -42,20 +42,6 @@ nav {
     height: 100%;
 }
 
-.img_carrosel {
-    width: 100%;
-    height: auto;
-}
-
-button img {
-    height: 80%;
-    width: auto;
-}
-
-.btn_portifolio {
-    font-family: Caveat;
-}
-
 .btn_whatsapp {
     background-color: #00D757;
     color: #fff

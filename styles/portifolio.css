@@ -22,7 +22,6 @@ nav {
 }
 .navbar_txt {
     color: #F9F1F7;
-    font-weight: 500;
 }
 .navbar-brand {
     display: flex;
@@ -59,4 +58,19 @@ nav {
     100% {
         background-color: #eaf2d7;
     }
+}
+.titulo_carrosel div h5 {
+    margin-bottom: calc(8rem - 2.5vw) ;
+    font-weight: 900;
+}
+
+.titulo_carrosel > img {
+    filter: blur(5px);
+}
+.titulo_carrosel div button {
+    height: 3rem;
+}
+.btn_carrosel_imagens {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: .1 .4rem;
 }
