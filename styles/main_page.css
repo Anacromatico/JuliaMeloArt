@@ -120,3 +120,7 @@ nav {
     }
 
 }
+#dev_igor {
+    animation-name: hide-show_btn;
+    animation-duration: 5s;
+}

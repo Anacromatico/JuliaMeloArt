@@ -57,6 +57,10 @@ body {
     border: none;
     border-radius: 1rem;
 }
+.btn_whatsapp {
+    background-color: #00D757;
+    color: #fff
+}
 .column {
     flex-direction: column;
 }
@@ -81,4 +85,16 @@ button img {
 }
 .btn_portifolio, .caveat {
     font-family: Caveat;
+}
+
+#dev_igor {
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#dev_igor a {
+    text-decoration: none;
+    color: #000;
+    font-size: xx-small;
 }

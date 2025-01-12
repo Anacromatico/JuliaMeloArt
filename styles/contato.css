@@ -35,8 +35,3 @@ body> :first-child {
 .juliawhatsapp :hover {
     cursor: pointer;
 }
-
-button {
-    background-color: #cdb4db;
-    color: #fff;
-}

@@ -74,3 +74,9 @@ nav {
     background-color: rgba(0, 0, 0, 0.5);
     padding: .1 .4rem;
 }
+#carrosel_paisagens div div div h5 {
+    margin-bottom: calc(3.2rem - 2.5vw) ;
+}
+#piso_pag {
+    margin-top: 6rem;
+}
