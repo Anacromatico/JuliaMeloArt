@@ -80,3 +80,17 @@ nav {
 #piso_pag {
     margin-top: 6rem;
 }
+.fadein {
+    animation-name: fadein;
+    animation-duration: 1s;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        font-size: 0;
+    }
+    100& {
+        opacity: 1;
+        font-size: calc(1.475rem + 2.7vw);
+    }
+}

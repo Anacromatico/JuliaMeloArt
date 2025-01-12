@@ -61,7 +61,7 @@
         </nav>
         <main class="pagina_p">
             <div class="pagina_sub" id="retratos">
-                <h3 id="retratos_titulo" class="display-4">...</h3>
+                <h3 id="retratos_titulo" class="display-4"></h3>
                 <div id="carrosel_retratos" class="carousel slide">
                     <div class="carousel-inner">
                         <div class="carousel-item titulo_carrosel active">
@@ -71,7 +71,7 @@
                             <div class="carousel-caption">
                                 <h5 class="display-4 caveat">Retratos</h5>
                                 <button class="btn" type="button" data-bs-target="#carrosel_retratos"
-                                    data-bs-slide="next">
+                                    data-bs-slide="next" onclick="indicaTitulos(h3Retratos, 'Retratos')">
                                     <img src="../layout_images/svg/seta_carrosel_portifolio_branco.svg" alt="">
                                     <span class="visually-hidden">Next</span>
                                 </button>
@@ -250,6 +250,7 @@
         <div id="dev_igor"><a href="">- Desenvolvido por Igor G. Bernardo -</a></div>
     </footer>
 </section>
+    <script src="../scripts/indicatitulo.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="../api/jquery/jquery-3.7.1.min.js"></script>
     <script src="../api/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
